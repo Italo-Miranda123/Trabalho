@@ -28,7 +28,9 @@ public class Trabalho {
         questao2.C = "C) Júpiter";
         questao2.D = "D) Saturno";
         questao2.E = "E) Vênus";
-        questao2.correta = "B";
+        questao2.correta = "C";
+
+
 
         questao1.escrevanatela();
         resposta = questao1.leiaResposta();
