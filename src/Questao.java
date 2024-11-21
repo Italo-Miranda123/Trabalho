@@ -9,7 +9,7 @@ public class Questao {
     String E = "";
     String correta = "";
 
-    public void escrevanatela() {
+    public void escrevaresposta() {
         System.out.println(this.pergunta);
         System.out.println();
         System.out.println(this.A);
