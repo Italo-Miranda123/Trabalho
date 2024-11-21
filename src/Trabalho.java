@@ -39,6 +39,26 @@ public class Trabalho {
             cont++;
         }
 
+
+        Questao questao3 = new Questao();
+        questao3.pergunta = "3 - Em que ano o homem chegou à Lua pela primeira vez?";
+        questao3.A = "A) 1967";
+        questao3.B = "B) 1969";
+        questao3.C = "C) 1972";
+        questao3.D = "D) 1980";
+        questao3.E = "E) 1991";
+        questao3.correta = "B";
+
+
+
+        questao1.escrevanatela();
+        resposta = questao1.leiaResposta();
+
+        if (questao1.verdadeira(resposta)){
+            cont++;
+        }
+
+
         double percent = ((double) cont / 15.0) * 100;
 
     }
