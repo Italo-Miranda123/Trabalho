@@ -19,6 +19,83 @@ public class Trabalho {
                 cont++;
             }
 
+        System.out.println("-----------------------------------------------------");
+
+        Questao questao2 = new Questao();
+        questao2.pergunta = "2 - Em que ano o homem chegou à Lua pela primeira vez?";
+        questao2.A = "A) 1967";
+        questao2.B = "B) 1969";
+        questao2.C = "C) 1972";
+        questao2.D = "D) 1980";
+        questao2.E = "E) 1991";
+        questao2.correta = "B";
+
+        questao2.escrevaresposta();
+        if (questao2.verdadeira())
+        {
+                cont++;
+        }
+
+        System.out.println("-----------------------------------------------------");
+
+        Questao questao3 = new Questao();
+        questao3.pergunta = "3 - Qual é a capital da França?";
+        questao3.A = "A) Madri";
+        questao3.B = "B) Roma";
+        questao3.C = "C) Paris";
+        questao3.D = "D) Londres";
+        questao3.E = "E) Berlim";
+        questao3.correta = "C";
+
+        questao3.escrevaresposta();
+        if (questao3.verdadeira())
+        {
+            cont++;
+        }
+
+        System.out.println("-----------------------------------------------------");
+
+        Questao questao4 = new Questao();
+        questao4.pergunta = "4 - Qual desses países não faz parte da América Latina?";
+        questao4.A = "A) México";
+        questao4.B = "B) Brasil";
+        questao4.C = "C) Argentina";
+        questao4.D = "D) Canadá";
+        questao4.E = "E) Chile";
+        questao4.correta = "D";
+
+        questao4.escrevaresposta();
+        if (questao4.verdadeira())
+        {
+            cont++;
+        }
+
+        System.out.println("-----------------------------------------------------");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
+
+
+
