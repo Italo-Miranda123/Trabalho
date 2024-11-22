@@ -259,6 +259,8 @@ public class Trabalho {
 
         System.out.println("-----------------------------------------------------");
 
+        double percent = ((double) cont / 15.0) * 100;
+
 
 
 
