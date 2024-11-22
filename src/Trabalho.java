@@ -251,8 +251,8 @@ public class Trabalho {
         questao15.E = "E) Chuva de meteoros";
         questao15.correta = "C";
 
-        questao14.escrevaresposta();
-        if (questao14.verdadeira())
+        questao15.escrevaresposta();
+        if (questao15.verdadeira())
         {
             cont++;
         }
