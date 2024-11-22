@@ -1,3 +1,4 @@
+import java.text.DecimalFormat;
 public class Trabalho {
     public static void main(String[] args) {
         Cabecalho.cabecalho();
@@ -18,6 +19,7 @@ public class Trabalho {
         {
                 cont++;
             }
+        int contadore1 = 1-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -35,6 +37,7 @@ public class Trabalho {
         {
                 cont++;
         }
+        int contadore2 = 2-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -52,6 +55,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore3 = 3-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -69,6 +73,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore4 = 4-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -86,6 +91,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore5 = 5-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -103,6 +109,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore6 = 6-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -120,6 +127,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore7 = 7-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -137,6 +145,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore8 = 8-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -154,6 +163,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore9 = 9-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -171,6 +181,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore10 = 10-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -188,6 +199,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore11 = 11-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -205,6 +217,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore12 = 12-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -222,6 +235,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore13 = 13-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -239,6 +253,7 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore14 = 14-cont;
 
         System.out.println("-----------------------------------------------------");
 
@@ -256,10 +271,33 @@ public class Trabalho {
         {
             cont++;
         }
+        int contadore15 = 15-cont;
+
 
         System.out.println("-----------------------------------------------------");
 
-        double percent = ((double) cont / 15.0) * 100;
+
+        int contadore = 15-cont;
+
+        System.out.println("Voçê chegou ao final do seu questionário");
+        System.out.println("Acertos: "+cont+"/15");
+        System.out.println("Erros: "+contadore+"/15");
+
+        if (cont > 7) {
+            System.out.println("Parabéns, foi aprovado");
+        }
+        else {
+            System.out.println("Reprovado");
+        }
+
+
+        double percent = (cont / 15.0) * 100;
+
+        DecimalFormat df = new DecimalFormat("0,0");
+
+        String percentformat = df.format(percent);
+
+        System.out.println("Sua porcentagem é:"+ percentformat+"%");
 
 
 
